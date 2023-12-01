@@ -1,0 +1,349 @@
+/*public style*/
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+   list-style-type: none;
+}
+.clearfix{
+    clear: both;
+}
+/*header*/
+.header{
+    background-image: url(../image/back.jpg);
+    height:100vh;
+    background-size: cover;
+    text-align: center;
+}
+
+.navbar{
+    padding-top: 20px;
+   position:fixed;
+   top:0;
+   width:100%;
+    /*background-color:darksalmon;*/
+}
+.list{
+    float:left;
+    width: 60%;
+    margin-top: 30px;
+}
+.logo{
+    float:left;
+    width: 40%;
+}
+.logo img{
+    width: 30%;
+}
+.list ul li {
+    display: inline-block;
+    width: 80px;
+}
+.list ul li a{
+    color: white;
+    font-size: 20px;
+}
+.header_content{
+    margin-top: 50px;
+    color: #fff;
+}
+.header_content h1{
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+.header_content p{
+    font-size: 40px ;
+    margin-bottom: 30px;
+}
+.header_content button{
+    padding: 15px 30px;
+
+}
+.header_content .learn_more{
+    background-color:#c1ab84;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.header_content .book_visit{
+    background-color:white;
+    color:black;
+}
+.learn_more:hover{
+background-color: white;
+color: black;
+}
+.overlay{
+    background-color:rgba(0,0,0,.3);
+    height: 100vh;
+}
+
+
+
+
+/*section2*/
+
+.section2 .chef {
+margin-left: 50px;
+ margin-top: 70px;  
+ margin-bottom: 70px;
+
+}
+
+.section2 .writing{
+    margin-left: 650px;
+    margin-top: -650px;
+
+}
+.section2 .writing h2{
+    color: #253048;
+    font-size: 36px;
+    font-family: "Alegreya";
+    font-weight: 400;
+   margin-bottom: 20px;
+}
+.section2 .writing h3{
+    color:#c1ab84 ;
+    font-size: 30px;
+    font-family: "Dancing Script";
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.section2 .writing p{
+   width: 70%;
+    font-size: 18px;
+    color:#686868 ;
+    margin-bottom: 20px;
+}
+.section2 .writing i{
+    color:#cab58f;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-right: 30px;
+   
+    
+}
+.section2 .writing .list_logo .list_logo_text{
+    color:#686868 ;
+    padding-top: 10px;
+    font-size: 18px;
+    margin-left: 60px;
+}
+ 
+ /*section3*/
+ .section3 {
+    background: #f8f8f8;
+ }
+ .section3 .writingth {
+    margin-top: 300px;
+    margin-left: 200px;
+ }
+ 
+ .kitchen img{
+    float: right;
+    margin-top: 0px;
+    width: 40%;
+ }
+ 
+ 
+ .writingth h2{
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+   
+ }
+ .writingth h3{
+  
+    color:#c1ab84 ;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    }
+ .writingth p{
+    
+    width:300px;
+    color:#686868 ;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+    
+ }
+ .writingth .list_icon{
+
+    font-size: 18px;
+    margin-top: 10px;
+    color:#686868 ;
+        
+ }
+ .section3 .writingth .list_icon i{
+    
+    margin-bottom: 30px;
+}
+ 
+ 
+ /*
+ section4*/
+ .background{
+ background-image: url(../image/bg.jpg);
+ margin-top: 50px;
+height: 300px;
+background-position: 200px;
+background-size: cover;
+}
+
+/*
+ section5*/
+ .section5{
+    margin-top: 15px;
+    align-items: center;
+ }
+ .section5 .container{
+    padding: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+ }
+ .section5 .container h3{
+    color:#c1ab84 ;
+    margin-bottom: 30px;
+ }
+
+ .section5 .float-item{
+    margin-left: 40px;
+    width: 30%;
+    float: left;
+    
+ }
+ .section5 .container .float-item img{
+    
+   width: 70%;
+ }
+  
+.section5  .float-item p{
+    color:#686868 ;
+    
+    
+  }  
+  .section5 .float-item span{
+    font-size: 20px;
+    
+  }  
+  .section5 .container button{
+    padding: 15px 30px;
+margin-top: 40px;
+}
+.section5 .container button{
+    background-color:#c1ab84;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 13px;
+    border-color: #c1ab84;
+
+}
+
+/*
+ section6*/
+ .section6 {
+    padding: 70px;
+    margin-bottom: 15px;
+   
+ }
+ .section6 .writings{
+    float: left;
+    width: 50%;
+ }
+ .section6 .writings h2{
+    color: #253048;
+    font-size: 36px;
+    font-family: "Alegreya";
+    font-weight: 400;
+   margin-bottom: 20px;
+ }
+ .section6 .writings p{
+    width: 50%;
+    font-size: 18px;
+    color:#686868 ;
+    margin-bottom: 20px;
+ }
+ .section6 .writings h3{
+    margin-top: 10px;
+   font-size: 18px;
+   color:#686868 ;
+   margin-bottom: 15px;
+ }
+ .section6 .list_icon i{
+   margin-bottom: 30px;
+   margin-right: 10px;
+   color:#cab58f;
+    font-size: 30px;
+
+ }
+ .section6 .list_icon{
+    color:#686868 ;
+
+ }
+/*
+ section7*/
+.section7{
+    background-color: #403d38;
+   
+   
+}
+.section7 .s{
+    float: left;
+    width: 25%;
+    margin-left: 50px; 
+    margin-bottom: 10px;
+}
+.section7 h3{
+    margin-top: 40px;
+  color: white;
+}
+.section7 p{
+    width: 40%;
+  }
+  
+.section7 .s .h{
+    color:#686868 ;
+}
+.section7 p{
+    color:#686868 ;
+  }
+  .section7 .s i{
+    color:#686868 ;
+  }
+  .section7 .s a{
+    color:#686868 ;
+  }
+  
+  /*
+ section8*/
+  .section8{
+    background-color:#373a3c;
+    text-align: center;
+    
+  }
+  .section8 img{
+   margin-bottom: 10px;
+    
+  }
+  .section8 h3{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color:#686868 ;
+     
+   }
+   .section8 .logo8 i{
+    color:#686868 ;
+   width: 30px;
+   margin-right: 15px;
+   margin-bottom: 30px;
+   }
+  
